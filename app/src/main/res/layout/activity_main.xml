@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:weightSum="11"
+    tools:context=".MainActivity">
+    <Button
+        android:id="@+id/proceed"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@android:color/black"
+        android:textColor="@android:color/background_light"
+        android:text="Proceed"
+        />
+    <ImageView
+        android:id="@+id/ImgView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="9"
+        android:contentDescription="TODO" />
+   <Button
+       android:id="@+id/capture"
+       android:layout_weight="1"
+       android:layout_height="wrap_content"
+       android:layout_width="match_parent"
+       android:background="@android:color/black"
+       android:textColor="@android:color/background_light"
+       android:text="Capture"
+       />
+
+</LinearLayout>
